@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+aiohttp = "*"
+asyncpgsa = "*"
+alembic = "*"
+psycopg2 = "*"
+urlextract = "*"
+
+[requires]
+python_version = "3.7"
